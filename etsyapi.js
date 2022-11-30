@@ -3,7 +3,7 @@
 */
 function getlistings(shopname, params, limit, imagesz) {
 	$(document).ready(function(){
-		apiKey = "your_api_key";
+		apiKey = "vgnrdvbrzani0794es5bji6c";
 		etsy_url = "https://openapi.etsy.com/v2/shops/"+ shopname + "/listings/active.js?";
 				 
 		etsy_url += "fields="+params +"&limit="+ limit+ "&includes=MainImage&api_key=" + apiKey;
